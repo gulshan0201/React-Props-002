@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+main{
+  box-shadow: rgba(240, 231, 231, 0.903) 0px 5px 15px;
+  width: 60rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.left{
+  padding: 1rem;
+  width: 50%;
+}
+
+section{
+  display: flex;
+  margin-bottom: 2.2rem;
+}
+
+.right{
+  margin-left: 0.5rem;
+}
+
+.right > span{
+  display: flex;
+  margin-top: 0.7rem;
+}
+
+span > button{
+  padding: 0 0.3rem;
+  margin-right: 0.3rem;
+  background-color: black;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+
+.aside{
+  width: 50%;
+}
+
+.icons{
+  display: flex;
+  margin-top: 8.5rem;
+}
+
+.icons > p{
+  padding-right: 2rem;
+}
